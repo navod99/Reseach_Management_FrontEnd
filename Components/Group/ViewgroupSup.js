@@ -17,7 +17,6 @@ import { Topic } from '@mui/icons-material';
 import { Snackbar } from "@mui/material";
 import MuiAlert from '@mui/material/Alert';
 import { forwardRef } from "react";
-import { setGroupId } from "../../../BACKEND/src/controller/user.controll";
 const Alert = forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
