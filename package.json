@@ -2,11 +2,11 @@
   "name": "frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "npx -p parcel-bundler parcel build index.html"
   },
   "author": "IT20021566",
   "license": "ISC",
