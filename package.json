@@ -20,6 +20,7 @@
     "@mui/icons-material": "^5.8.0",
     "@mui/lab": "^5.0.0-alpha.82",
     "@mui/material": "^5.8.0",
+    "@mui/system": "^5.8.2",
     "@stream-io/stream-chat-css": "^2.9.0",
     "axios": "^0.27.2",
     "dates-between": "^3.0.1",
