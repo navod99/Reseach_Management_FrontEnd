@@ -20,8 +20,8 @@ import CreateStaff from './Components/user/CreateStaff'
 import Creategroup from './Components/Group/Creategroup'
 import Submission from './Components/Submissions/Submission';
 import SupervisorDashboard from './DashBords/supervisorDashboard';
-import SupervisorView from './Components/Supervisor/SupervisorView'
-import Reqests from './Components/Supervisor/Requests'
+import SupervisorView from './Components/supervisor/Requests'
+import Requests from './Components/supervisor/Requests'
 import TopicReg from './Components/Topic/TopicReg';
 import ViewgroupSup from './Components/Group/ViewgroupSup';
 import SubmissionDashboard from './Components/Submissions/SubmissionDashboard';
@@ -52,7 +52,7 @@ const Routing = () => {
                 <Route path='/CreateGroup' exact element={<Creategroup />} />
                 <Route path='/submission/:id' exact element={<Submission />} />
                 <Route path='/supervisors' exact element={<SupervisorView />} />
-                <Route path='/requests' exact element={<Reqests />} />
+                <Route path='/requests' exact element={<Requests />} />
                <Route path='/supViewGroup' exact element={<ViewgroupSup />} />
               
                 <Route path='/submissiondashboard' exact element={<SubmissionDashboard/>}/>
